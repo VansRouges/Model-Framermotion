@@ -84,20 +84,21 @@ const Model = ({ imageDetails }) => {
             </motion.div>
             <motion.div className='model'>
               <motion.span className='first' variants={firstName}>
-                <motion.span variants={letter}>Y</motion.span>
-                <motion.span variants={letter}>a</motion.span>
-                <motion.span variants={letter}>s</motion.span>
-                <motion.span variants={letter}>m</motion.span>
-                <motion.span variants={letter}>e</motion.span>
-                <motion.span variants={letter}>e</motion.span>
-                <motion.span variants={letter}>n</motion.span>
+                <motion.span variants={letter}>I</motion.span>
+                <motion.span variants={letter}>N</motion.span>
+                <motion.span variants={letter}>G</motion.span>
+                <motion.span variants={letter}>R</motion.span>
+                <motion.span variants={letter}>I</motion.span>
+                <motion.span variants={letter}>D</motion.span>
               </motion.span>
               <motion.span className='last' variants={lastName}>
-                <motion.span variants={letter}>T</motion.span>
-                <motion.span variants={letter}>a</motion.span>
-                <motion.span variants={letter}>r</motion.span>
-                <motion.span variants={letter}>i</motion.span>
-                <motion.span variants={letter}>q</motion.span>
+                <motion.span variants={letter}>F</motion.span>
+                <motion.span variants={letter}>I</motion.span>
+                <motion.span variants={letter}>S</motion.span>
+                <motion.span variants={letter}>C</motion.span>
+                <motion.span variants={letter}>H</motion.span>
+                <motion.span variants={letter}>E</motion.span>
+                <motion.span variants={letter}>R</motion.span>
               </motion.span>
             </motion.div>
           </div>
@@ -123,7 +124,7 @@ const Model = ({ imageDetails }) => {
                   whileHover='hover'
                   transition={transition}>
                   <motion.img
-                    src={require("../images/yasmeen.webp")}
+                    src={require("../images/ingrid.webp")}
                     alt='an image'
                     style={{ scale: scale }}
                     initial={{ scale: 1.0 }}

@@ -19,14 +19,14 @@ const Home = ({ imageDetails, image }) => (
                 height: imageDetails.height,
               }}>
               <div className='frame'>
-                <Link to={`/model/yasmeen-tariq`}>
+                <Link to={`/model/ingrid-fischer`}>
                   <ProgressiveImage
-                    src={require("../images/yasmeen.webp")}
+                    src={require("../images/ingrid.webp")}
                     placeholder={require("../images/compressed-image.jpg")}>
                     {(src) => (
                       <motion.img
                         src={src}
-                        alt='Yasmeen Tariq'
+                        alt='Ingrid Fischer'
                         whileHover={{ scale: 1.1 }}
                         transition={transition}
                       />
@@ -39,7 +39,7 @@ const Home = ({ imageDetails, image }) => (
               exit={{ opacity: 0 }}
               transition={transition}
               className='information'>
-              <div className='title'>Yasmeen Tariq</div>
+              <div className='title'>Ingrid Fischer</div>
               <div className='location'>
                 <span>28.538336</span>
                 <span>-81.379234</span>
